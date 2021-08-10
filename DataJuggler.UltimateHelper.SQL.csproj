@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>This project was created because DataJuggler.UltimateHelper had a dependency on SQL Client 4.8
+Rather than just update to Microsoft.Data.SQLClient, I wanted to separate the projects so
+a SQL Client requirement wasn't needed.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
